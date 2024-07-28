@@ -68,6 +68,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             print("invalid-email format ");
                           } else if (e.code == "weak-password") {
                             print("weak-password - goku");
+                          } else if (e.code == "email-already-in-use") {
+                            print("Already in usseeee");
                           }
                         } catch (e) {}
                       },

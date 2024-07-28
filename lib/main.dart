@@ -50,7 +50,7 @@ class HomePage extends StatelessWidget {
                 print("Not verified bitchhhhhhhhhhhhh");
               }
 
-              return Scaffold(
+              return const Scaffold(
                 body: Text("gg"),
               );
             default:
